@@ -11,4 +11,4 @@ const salary = 8000
 // document.write(salary);
 console.log(salary)
 
-let s
+let sum 
