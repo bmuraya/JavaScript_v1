@@ -79,61 +79,122 @@ console.log('Hello from Script')
 //     Symbol
 
 // Non primitive type 
-//    Ojbects
+// An object
+// An array
+// A date
 
 
-// strings
+// // strings
 
-// string the following  goutes
+// // string the following  goutes
 
-const name = "muraya"
-const language= 'javaScript'
-const chanel =  `murayach`
-
-
-// Number 
-
-const total = 0
-const PI =3.14
-
-// Boolean
-
-// use to run code for true or fasle statment 
-
-const isPrimaryNumber =true
-const IsNewUser = false
+// const name = "muraya"
+// const language= 'javaScript'
+// const chanel =  `murayach`
 
 
-// undefined 
-//  value that is not assisgned 
+// // Number 
 
-let result
-console.log(result)
+// const total = 0
+// const PI =3.14
 
-const res =null //explicitly 
+// // Boolean
 
-// null
-// special value represent unknown value or empty value in JS
+// // use to run code for true or fasle statment 
 
-const data=null
-
-
-// const object store value 
-const person =
-{
-    firstName: 'Muraya',
-    lastName: 'babu',
-    age: 30
-}
-
-console.log(person.firstName, person.lastName, person.age)
-
-const oodNumbers = [1, 3, 5, 7, 9]
-console.log(oodNumbers[4])
+// const isPrimaryNumber =true
+// const IsNewUser = false
 
 
-let a=10
-a= 'babu'
-a=true
+// // undefined 
+// //  value that is not assisgned 
 
-console.log(a)
+// let result
+// console.log(result)
+
+// const res =null //explicitly 
+
+// // null
+// // special value represent unknown value or empty value in JS
+
+// const data=null
+
+
+// // const object store value 
+// const person =
+// {
+//     firstName: 'Muraya',
+//     lastName: 'babu',
+//     age: 30
+// }
+
+// console.log(person.firstName, person.lastName, person.age)
+
+// const oodNumbers = [1, 3, 5, 7, 9]
+// console.log(oodNumbers[4])
+
+
+// let a=10
+// a= 'babu'
+// a=true
+
+// console.log(a)
+
+
+// let x = 16 + 4 + "Volvo"
+// console.log(x)
+
+
+// JavaScript Operators 
+// Special symbol used to perform operation on values and variables
+    // Arithmetic Operators
+    // Assignment Operators
+    // Comparison Operators
+    // String Operators
+    // Logical Operators
+    // Bitwise Operators
+    // Ternary Operators
+    // Type Operators
+
+
+    // Assignment Operators
+
+    // let x = 10
+
+    // Arithmetic Operators
+
+    let x = 10
+    let y = 5
+
+    //  //console.log(x%y)
+    //  console.log(x+y)
+    //  console.log(x-y)
+    //  console.log(x/y)
+    //  console.log(x*y)
+    //  console.log(++x)
+    //  console.log(--y)
+    
+
+    // Comparison Operators
+    // console.log(x==y)
+    // console.log(x!=y)
+    // console.log(x===y)
+    // console.log(x!==y)
+    // console.log(x>y)
+    // console.log(x>=y)
+    // console.log(x<=y)
+    // console.log(x<y)
+
+
+    // Logical Operators
+
+    // const isValidNumber = x > 8 && 8 > y
+    // const isValidNumber = x > 20 || 1 > y  // if either operand is true the result is true
+    // console.log(isValidNumber)
+
+    // String Operators adding string together 
+        console.log('Muraya '+'babu')
+
+    const isEven = 10%2 ? 'number is even' : 'number is odd'
+    console.log(isEven) 
+ 
