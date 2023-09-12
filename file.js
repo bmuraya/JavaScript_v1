@@ -193,8 +193,49 @@ console.log('Hello from Script')
     // console.log(isValidNumber)
 
     // String Operators adding string together 
-        console.log('Muraya '+'babu')
+    //     console.log('Muraya '+'babu')
 
-    const isEven = 10%2 ? 'number is even' : 'number is odd'
-    console.log(isEven) 
- 
+    // const isEven = 10%2 ? 'number is even' : 'number is odd'
+    // console.log(isEven) 
+
+//     /// type conversions 
+//     // implicit conversion 
+// console.log(true + '3')
+
+// console.log('12' - '3')
+// console.log('12' / '3')
+// console.log('12' * '3')
+// console.log('12' % '3')
+
+
+// console.log('5' - true)
+// console.log('5' - null)
+// console.log('2' * true)
+
+// explicit conversion
+// manually convert the type value
+
+// console.log(Number("7"))
+// console.log(parseFloat("7"))
+// console.log(parseInt("7"))
+
+// console.log(String(true))
+// console.log((500).toString()) it return as string
+
+// console.log(Boolean(20))// please note 0 '' undefined null NaN all return a boolean of false  becouse the value is 0
+
+// equality 
+//     == allow coercion
+//     ===Does not allow coercion
+
+// const var1 =10
+// const var2 ='10'
+
+// console.log(var1 == var2)
+// console.log(var1 === var2)
+
+// conditional Statements
+//     if 
+//     else 
+//     elseif
+//     switch
